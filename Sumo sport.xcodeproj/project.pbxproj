@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6D88C952CFCE5C2001CCBF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C922CFCE5C2001CCBF0 /* ContentView.swift */; };
+		F6D88C962CFCE5C2001CCBF0 /* Sumo_sportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C932CFCE5C2001CCBF0 /* Sumo_sportApp.swift */; };
+		F6D88C972CFCE5C2001CCBF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D88C8F2CFCE5C2001CCBF0 /* Preview Assets.xcassets */; };
+		F6D88C982CFCE5C2001CCBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D88C912CFCE5C2001CCBF0 /* Assets.xcassets */; };
+		F6D88CA92CFCE6AC001CCBF0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C9D2CFCE6AC001CCBF0 /* WebView.swift */; };
+		F6D88CAA2CFCE6AC001CCBF0 /* ProfileViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA32CFCE6AC001CCBF0 /* ProfileViewGS.swift */; };
+		F6D88CAB2CFCE6AC001CCBF0 /* PrivacyViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C9C2CFCE6AC001CCBF0 /* PrivacyViewGS.swift */; };
+		F6D88CAC2CFCE6AC001CCBF0 /* HomeViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA82CFCE6AC001CCBF0 /* HomeViewGS.swift */; };
+		F6D88CAD2CFCE6AC001CCBF0 /* QuotesViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA02CFCE6AC001CCBF0 /* QuotesViewGS.swift */; };
+		F6D88CAE2CFCE6AC001CCBF0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA22CFCE6AC001CCBF0 /* ImagePicker.swift */; };
+		F6D88CAF2CFCE6AC001CCBF0 /* TrainingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA52CFCE6AC001CCBF0 /* TrainingViewGS.swift */; };
+		F6D88CB02CFCE6AC001CCBF0 /* Dopomoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88CA12CFCE6AC001CCBF0 /* Dopomoga.swift */; };
+		F6D88CB12CFCE6AC001CCBF0 /* OnboardingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C9F2CFCE6AC001CCBF0 /* OnboardingViewGS.swift */; };
+		F6D88CB22CFCE6AC001CCBF0 /* LoadingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C9A2CFCE6AC001CCBF0 /* LoadingViewGS.swift */; };
+		F6D88CB32CFCE6AC001CCBF0 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6D88C9B2CFCE6AC001CCBF0 /* privacy.html */; };
+		F6D88CB42CFCE6AC001CCBF0 /* sport.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D88CA62CFCE6AC001CCBF0 /* sport.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6D88C752CFCE59B001CCBF0 /* Sumo sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sumo sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D88C8F2CFCE5C2001CCBF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6D88C912CFCE5C2001CCBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D88C922CFCE5C2001CCBF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6D88C932CFCE5C2001CCBF0 /* Sumo_sportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumo_sportApp.swift; sourceTree = "<group>"; };
+		F6D88C992CFCE64C001CCBF0 /* Sumo-sport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sumo-sport-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F6D88C9A2CFCE6AC001CCBF0 /* LoadingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewGS.swift; sourceTree = "<group>"; };
+		F6D88C9B2CFCE6AC001CCBF0 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F6D88C9C2CFCE6AC001CCBF0 /* PrivacyViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewGS.swift; sourceTree = "<group>"; };
+		F6D88C9D2CFCE6AC001CCBF0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F6D88C9F2CFCE6AC001CCBF0 /* OnboardingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewGS.swift; sourceTree = "<group>"; };
+		F6D88CA02CFCE6AC001CCBF0 /* QuotesViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewGS.swift; sourceTree = "<group>"; };
+		F6D88CA12CFCE6AC001CCBF0 /* Dopomoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dopomoga.swift; sourceTree = "<group>"; };
+		F6D88CA22CFCE6AC001CCBF0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F6D88CA32CFCE6AC001CCBF0 /* ProfileViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewGS.swift; sourceTree = "<group>"; };
+		F6D88CA52CFCE6AC001CCBF0 /* TrainingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewGS.swift; sourceTree = "<group>"; };
+		F6D88CA62CFCE6AC001CCBF0 /* sport.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sport.xcassets; sourceTree = "<group>"; };
+		F6D88CA82CFCE6AC001CCBF0 /* HomeViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewGS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D88C722CFCE59B001CCBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6D88C6C2CFCE59B001CCBF0 = {
+			isa = PBXGroup;
+			children = (
+				F6D88C942CFCE5C2001CCBF0 /* Sumo sport */,
+				F6D88C762CFCE59B001CCBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D88C762CFCE59B001CCBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88C752CFCE59B001CCBF0 /* Sumo sport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D88C902CFCE5C2001CCBF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88C8F2CFCE5C2001CCBF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6D88C942CFCE5C2001CCBF0 /* Sumo sport */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88C992CFCE64C001CCBF0 /* Sumo-sport-Info.plist */,
+				F6D88C932CFCE5C2001CCBF0 /* Sumo_sportApp.swift */,
+				F6D88C922CFCE5C2001CCBF0 /* ContentView.swift */,
+				F6D88C9E2CFCE6AC001CCBF0 /* Loading G */,
+				F6D88C9F2CFCE6AC001CCBF0 /* OnboardingViewGS.swift */,
+				F6D88CA02CFCE6AC001CCBF0 /* QuotesViewGS.swift */,
+				F6D88CA12CFCE6AC001CCBF0 /* Dopomoga.swift */,
+				F6D88CA42CFCE6AC001CCBF0 /* Profile */,
+				F6D88CA72CFCE6AC001CCBF0 /* Tresha */,
+				F6D88CA82CFCE6AC001CCBF0 /* HomeViewGS.swift */,
+				F6D88C912CFCE5C2001CCBF0 /* Assets.xcassets */,
+				F6D88C902CFCE5C2001CCBF0 /* Preview Content */,
+			);
+			path = "Sumo sport";
+			sourceTree = "<group>";
+		};
+		F6D88C9E2CFCE6AC001CCBF0 /* Loading G */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88C9A2CFCE6AC001CCBF0 /* LoadingViewGS.swift */,
+				F6D88C9B2CFCE6AC001CCBF0 /* privacy.html */,
+				F6D88C9C2CFCE6AC001CCBF0 /* PrivacyViewGS.swift */,
+				F6D88C9D2CFCE6AC001CCBF0 /* WebView.swift */,
+			);
+			path = "Loading G";
+			sourceTree = "<group>";
+		};
+		F6D88CA42CFCE6AC001CCBF0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88CA22CFCE6AC001CCBF0 /* ImagePicker.swift */,
+				F6D88CA32CFCE6AC001CCBF0 /* ProfileViewGS.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F6D88CA72CFCE6AC001CCBF0 /* Tresha */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88CA52CFCE6AC001CCBF0 /* TrainingViewGS.swift */,
+				F6D88CA62CFCE6AC001CCBF0 /* sport.xcassets */,
+			);
+			path = Tresha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D88C742CFCE59B001CCBF0 /* Sumo sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D88C832CFCE59C001CCBF0 /* Build configuration list for PBXNativeTarget "Sumo sport" */;
+			buildPhases = (
+				F6D88C712CFCE59B001CCBF0 /* Sources */,
+				F6D88C722CFCE59B001CCBF0 /* Frameworks */,
+				F6D88C732CFCE59B001CCBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sumo sport";
+			packageProductDependencies = (
+			);
+			productName = "Sumo sport";
+			productReference = F6D88C752CFCE59B001CCBF0 /* Sumo sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D88C6D2CFCE59B001CCBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6D88C742CFCE59B001CCBF0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F6D88C702CFCE59B001CCBF0 /* Build configuration list for PBXProject "Sumo sport" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6D88C6C2CFCE59B001CCBF0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6D88C762CFCE59B001CCBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D88C742CFCE59B001CCBF0 /* Sumo sport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D88C732CFCE59B001CCBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D88C972CFCE5C2001CCBF0 /* Preview Assets.xcassets in Resources */,
+				F6D88CB32CFCE6AC001CCBF0 /* privacy.html in Resources */,
+				F6D88CB42CFCE6AC001CCBF0 /* sport.xcassets in Resources */,
+				F6D88C982CFCE5C2001CCBF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D88C712CFCE59B001CCBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D88C952CFCE5C2001CCBF0 /* ContentView.swift in Sources */,
+				F6D88CA92CFCE6AC001CCBF0 /* WebView.swift in Sources */,
+				F6D88CAA2CFCE6AC001CCBF0 /* ProfileViewGS.swift in Sources */,
+				F6D88CAB2CFCE6AC001CCBF0 /* PrivacyViewGS.swift in Sources */,
+				F6D88CAC2CFCE6AC001CCBF0 /* HomeViewGS.swift in Sources */,
+				F6D88CAD2CFCE6AC001CCBF0 /* QuotesViewGS.swift in Sources */,
+				F6D88CAE2CFCE6AC001CCBF0 /* ImagePicker.swift in Sources */,
+				F6D88CAF2CFCE6AC001CCBF0 /* TrainingViewGS.swift in Sources */,
+				F6D88CB02CFCE6AC001CCBF0 /* Dopomoga.swift in Sources */,
+				F6D88CB12CFCE6AC001CCBF0 /* OnboardingViewGS.swift in Sources */,
+				F6D88CB22CFCE6AC001CCBF0 /* LoadingViewGS.swift in Sources */,
+				F6D88C962CFCE5C2001CCBF0 /* Sumo_sportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6D88C812CFCE59C001CCBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6D88C822CFCE59C001CCBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D88C842CFCE59C001CCBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sumo sport/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sumo-sport-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sumo sport";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testleschenko.Sumo-sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6D88C852CFCE59C001CCBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sumo sport/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sumo-sport-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sumo sport";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testleschenko.Sumo-sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D88C702CFCE59B001CCBF0 /* Build configuration list for PBXProject "Sumo sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D88C812CFCE59C001CCBF0 /* Debug */,
+				F6D88C822CFCE59C001CCBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D88C832CFCE59C001CCBF0 /* Build configuration list for PBXNativeTarget "Sumo sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D88C842CFCE59C001CCBF0 /* Debug */,
+				F6D88C852CFCE59C001CCBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D88C6D2CFCE59B001CCBF0 /* Project object */;
+}
