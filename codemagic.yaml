@@ -6,12 +6,12 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.greensport
+            bundle_identifier: com.casuquiz
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.greensport"
+          BUNDLE_ID: "com.casuquiz"
           XCODE_WORK: "Sumo sport.xcodeproj"
           XCODE_SCHEME: "Sumo sport"
           
