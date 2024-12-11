@@ -28,9 +28,11 @@ struct ContentViewSS: View {
                             case .home:
                                 HomeViewSS()
                             case .profile:
-                                ProfileViewSS()
+                                KcalView()
                             case .quotes:
                                 QuotesViewSS()
+                            case .stretch:
+                                DayliStrerchView()
                             }
                         }
                         
@@ -146,9 +148,36 @@ struct ContentViewSS: View {
                     
                 }
             }
+            
+            Spacer()
+            
+            Button {
+                withAnimation {
+                    selectedTab = .stretch
+                }
+            } label: {
+                ZStack {
+                    if selectedTab == .stretch {
+                        Circle()
+                            .foregroundColor(.white)
+                            .frame(height: 57)
+                            .transition(.scale)
+                    } else {
+                        Circle()
+                            .foregroundColor(.white)
+                            .frame(height: 57)
+                            .opacity(0)
+                    }
+                    
+                    Image("tab 4")
+                        .renderingMode(.template)
+                        .offset(y: 3)
+                        .foregroundColor(selectedTab == .stretch ? .hex("0D0550"): .white)
+                }
+            }
         }
         .padding(6)
-        .padding(.horizontal, 40)
+        .padding(.horizontal, 20)
         .background(Color.hex("0D0550"))
         .cornerRadius(55)
         .padding(.bottom)
@@ -164,6 +193,7 @@ enum Tabs {
     case home
     case profile
     case quotes
+    case stretch
 }
 
 func formattedDateString() -> String {

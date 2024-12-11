@@ -82,6 +82,16 @@ struct TrainingViewSS: View {
                 Text("\(vm.selectedExs)/5")
                 .withFont(size: 19.5, weight: .semibold, color: .hex("FEE600"))
                 .transition(.move(edge: .trailing))
+            } else if vm.status == .start {
+                Button {
+                    withAnimation {
+                        vm.favourite = vm.sportType.rawValue
+                    }
+                } label: {
+                    Image("favourite.button")
+                        .renderingMode(.template)
+                        .foregroundStyle(vm.favourite == vm.sportType.rawValue ? .pink : .white)
+                }
             }
         }.animation(.easeInOut, value: vm.status)
     }
@@ -172,6 +182,7 @@ struct TrainingViewSS: View {
 class TrainViewModel: ObservableObject {
     @AppStorage("secondsWaste") var secondsWaste = 0
     @AppStorage("wasTrained") var wasTrained = false
+    @AppStorage("favourite") var favourite = ""
     
     enum ViewTypes {
         case start
@@ -189,6 +200,10 @@ class TrainViewModel: ObservableObject {
     init(sportType: SportTypes) {
         self.sportType = sportType
         rate = Int.random(in: 1...10)
+        
+        if sportType == .stretch {
+            startTrain()
+        }
     }
     
     func startTrain() {
@@ -217,4 +232,5 @@ enum SportTypes: String {
     case volleyball = "volleyball"
     case basketball = "basketball"
     case rugby = "rugby"
+    case stretch = "stretch"
 }

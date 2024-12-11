@@ -23,6 +23,8 @@
 		F6D88CB22CFCE6AC001CCBF0 /* LoadingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D88C9A2CFCE6AC001CCBF0 /* LoadingViewGS.swift */; };
 		F6D88CB32CFCE6AC001CCBF0 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6D88C9B2CFCE6AC001CCBF0 /* privacy.html */; };
 		F6D88CB42CFCE6AC001CCBF0 /* sport.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D88CA62CFCE6AC001CCBF0 /* sport.xcassets */; };
+		F6EB29732D0A1B9B00FF6E7F /* KcalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB29722D0A1B9B00FF6E7F /* KcalView.swift */; };
+		F6F525212D09F703001D6E80 /* DayliStrerchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F525202D09F703001D6E80 /* DayliStrerchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		F6D88CA52CFCE6AC001CCBF0 /* TrainingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewGS.swift; sourceTree = "<group>"; };
 		F6D88CA62CFCE6AC001CCBF0 /* sport.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sport.xcassets; sourceTree = "<group>"; };
 		F6D88CA82CFCE6AC001CCBF0 /* HomeViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewGS.swift; sourceTree = "<group>"; };
+		F6EB29722D0A1B9B00FF6E7F /* KcalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcalView.swift; sourceTree = "<group>"; };
+		F6F525202D09F703001D6E80 /* DayliStrerchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayliStrerchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				F6D88C9F2CFCE6AC001CCBF0 /* OnboardingViewGS.swift */,
 				F6D88CA02CFCE6AC001CCBF0 /* QuotesViewGS.swift */,
 				F6D88CA12CFCE6AC001CCBF0 /* Dopomoga.swift */,
+				F6F525202D09F703001D6E80 /* DayliStrerchView.swift */,
+				F6EB29722D0A1B9B00FF6E7F /* KcalView.swift */,
 				F6D88CA42CFCE6AC001CCBF0 /* Profile */,
 				F6D88CA72CFCE6AC001CCBF0 /* Tresha */,
 				F6D88CA82CFCE6AC001CCBF0 /* HomeViewGS.swift */,
@@ -207,8 +213,10 @@
 				F6D88C952CFCE5C2001CCBF0 /* ContentView.swift in Sources */,
 				F6D88CA92CFCE6AC001CCBF0 /* WebView.swift in Sources */,
 				F6D88CAA2CFCE6AC001CCBF0 /* ProfileViewGS.swift in Sources */,
+				F6EB29732D0A1B9B00FF6E7F /* KcalView.swift in Sources */,
 				F6D88CAB2CFCE6AC001CCBF0 /* PrivacyViewGS.swift in Sources */,
 				F6D88CAC2CFCE6AC001CCBF0 /* HomeViewGS.swift in Sources */,
+				F6F525212D09F703001D6E80 /* DayliStrerchView.swift in Sources */,
 				F6D88CAD2CFCE6AC001CCBF0 /* QuotesViewGS.swift in Sources */,
 				F6D88CAE2CFCE6AC001CCBF0 /* ImagePicker.swift in Sources */,
 				F6D88CAF2CFCE6AC001CCBF0 /* TrainingViewGS.swift in Sources */,
@@ -347,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Sumo sport/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -385,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Sumo sport/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;

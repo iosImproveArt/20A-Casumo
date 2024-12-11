@@ -148,7 +148,9 @@ struct ProfileViewSS: View {
                 .padding(.top)
             }.padding(.horizontal)
                 .padding(.bottom)
+            
         }.gradientTopAndBottom()
+            .background(3)
         .animation(.easeInOut, value: textfield)
         .actionSheet(isPresented: $showActionSheetBB) {
             ActionSheet(title: Text(""), buttons: [
@@ -193,6 +195,7 @@ struct ProfileViewSS: View {
                 dismissButton: .default(Text("OK"))
             )
         }
+        
     }
     
     private var selectSportView: some View {
