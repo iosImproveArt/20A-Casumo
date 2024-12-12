@@ -15,6 +15,8 @@ struct KcalView: View {
     @State var lifestyle = 0
     @State var sportgoal = 0
     
+    @State private var showInfoSheet = false
+    
     var body: some View {
     
         VStack {
@@ -25,6 +27,19 @@ struct KcalView: View {
                     Text("Recommended daily calories per day:")
                         .withFont(size: 25, weight: .regular)
                         .padding(.trailing, 50)
+                    
+                    Spacer()
+                    
+                    Button {
+                        showInfoSheet = true
+                    } label: {
+                        Image(systemName: "exclamationmark.triangle.fill")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(height: 26)
+                            .foregroundColor(.red)
+                            
+                    }
                     
                     Spacer()
                     
@@ -123,10 +138,59 @@ struct KcalView: View {
                 
                 Spacer()
             }
-        }.sheet(isPresented: $showSheet) {
+        }.grayscale(showInfoSheet ? 1: 0)
+            .animation(.easeInOut, value: showInfoSheet)
+        .sheet(isPresented: $showSheet) {
             ProfileViewSS()
                 .presentationDetents([.fraction(0.9)])
         }
+        .sheet(isPresented: $showInfoSheet) {
+            infoSheet
+        }
+        .onChange(of: kkcal) { _ in
+            showInfoSheet = true
+        }
+    }
+    
+    private var infoSheet: some View {
+        ScrollView {
+            VStack(alignment: .leading) {
+                Text("Disclaimer")
+                    .withFont(size: 40, weight: .bold)
+                    .padding(.bottom)
+                
+                Text("The calorie calculation in this app is based on the Basal Metabolic Rate (BMR) formula for men:")
+                    .withFont(size: 18, weight: .regular)
+                
+                Text("BMR = 66.4730 + (13.7516 × weight in kg) + (5.0033 × height in cm) – (6.7550 × age in years).")
+                    .withFont(size: 18, weight: .semibold)
+                    .padding(.vertical, 8)
+                
+                Text("This formula provides an estimate of daily caloric needs and may not be suitable for everyone. Please consult a healthcare professional before relying on these calculations to ensure they are appropriate for your individual health needs.")
+                    .withFont(size: 18, weight: .regular)
+                
+                Text("This formula is derived from recognized medical and nutritional research:")
+                    .withFont(size: 18, weight: .regular)
+                    .padding(.bottom)
+                
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("- Harris JA, Benedict FG. \"A Biometric Study of Basal Metabolism in Man,\" Proceedings of the National Academy of Sciences, 1918.")
+                        .withFont(size: 18, weight: .regular)
+                    Link("Read Online (PDF)", destination: URL(string: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1680745/")!)
+                    
+                    Text("- Roza AM, Shizgal HM. \"The Harris Benedict equation reevaluated: resting energy requirements and the body cell mass,\" American Journal of Clinical Nutrition, 1984.")
+                        .withFont(size: 18, weight: .regular)
+                    Link("Source on PubMed", destination: URL(string: "https://pubmed.ncbi.nlm.nih.gov/6741850/")!)
+                    
+                    Text("- For further reliable medical references, visit:")
+                        .withFont(size: 18, weight: .regular)
+                    Link("World Health Organization (WHO)", destination: URL(string: "https://www.who.int")!)
+                    Link("National Institutes of Health (NIH)", destination: URL(string: "https://www.nih.gov")!)
+                }
+                .withFont(size: 18, weight: .regular, color: .blue)
+            }
+        }.background(3)
+            .presentationDetents([.fraction(0.5)])
     }
     
     private var onboardView: some View {

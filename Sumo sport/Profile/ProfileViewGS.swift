@@ -27,6 +27,7 @@ struct ProfileViewSS: View {
     func wrgw() -> Float {
         return 432355
     }
+    
     func wrtwr() {
         print("wrfwrtgwrr3")
     }
